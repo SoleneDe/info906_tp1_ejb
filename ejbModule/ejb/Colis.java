@@ -27,6 +27,7 @@ public class Colis implements Serializable {
 		this.price = price;
 		this.origin = origin;
 		this.destination = destination;
+		//this.position = new Position(0, 0, origin);
 		this.position = null;
 		this.state = State.REGISTRATION;
 	}

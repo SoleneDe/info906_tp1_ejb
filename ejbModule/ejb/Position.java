@@ -26,6 +26,10 @@ public class Position implements Serializable {
 		this.place = place;
 	}
 
+	public long getId() {
+		return id;
+	}
+
 	public double getLatitude() {
 		return latitude;
 	}
