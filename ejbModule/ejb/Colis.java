@@ -67,11 +67,4 @@ public class Colis implements Serializable {
 	public void setState(State state) {
 		this.state = state;
 	}
-	
-	
-	
-	
-	
-	
-
 }

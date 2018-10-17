@@ -39,7 +39,6 @@ public class ColisOperationBean implements ColisOperation {
 		position.setPlace(place);
 		
 		return colis;
-		//return changePosition(changeState(em.find(Colis.class, id_colis), state), em.find(Position.class, id_pos));
 	}
 
 	private Colis changeState(Colis colis, State state) {
